@@ -21,7 +21,7 @@ public class ReadFileV2 {
         fis.close();
 
         long end = System.currentTimeMillis();
-        System.out.println("File created: " + FILE_NAME);
+        System.out.println("File name: " + FILE_NAME);
         System.out.println("File size: " + fileSize / 1024 / 1024 + " MB");
         System.out.println("Time taken: " + (end - start) + "ms");
     }
